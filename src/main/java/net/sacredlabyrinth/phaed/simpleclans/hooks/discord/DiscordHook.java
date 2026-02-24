@@ -419,7 +419,7 @@ public class DiscordHook implements Listener {
 
 		} finally {
 			// unlock channel creation for this clantag, perchance.
-			channelsBeingCreated.remove(clanTag);
+			channelIsBeingCreated.remove(clanTag);
 		}
 	}
 
