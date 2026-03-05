@@ -376,7 +376,7 @@ public class DiscordHook implements Listener {
 		}
 
 		try {
-			w2
+			
 			validateChannel(clanTag);
 
 			Map<ClanPlayer, Member> discordClanPlayers = getDiscordPlayers(clanManager.getClan(clanTag));
